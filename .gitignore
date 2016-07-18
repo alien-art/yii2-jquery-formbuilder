@@ -1,0 +1,11 @@
+/nbproject/private/
+/nbproject
+.idea/
+!.gitkeep
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
