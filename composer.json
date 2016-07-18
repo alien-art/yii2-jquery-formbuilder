@@ -3,12 +3,6 @@
     "description": "Widget for jQuery fromBuilder",
     "type": "yii2-extension",
     "keywords": ["yii2","formBuilder"],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/alien-art/yii2-jquery-formbuilder"
-        }
-    ],
     "authors": [
         {
         "name": "Alien-art",
