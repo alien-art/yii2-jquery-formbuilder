@@ -9,11 +9,10 @@
         "email": "alien@alien-art.ru"
         }
     ],
-	"minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
         "yiisoft/yii2": "*",
-	"yiisoft/yii2-jui": "^2.0.0",
+		"yiisoft/yii2-jui": "^2.0.0",
         "bower-asset/formBuilder": "@stable"
     },
     "autoload": {
