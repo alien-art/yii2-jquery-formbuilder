@@ -25,4 +25,5 @@
     "asset-installer-paths": {
       "bower-asset-library": "vendor/bower"
     }
+	}
 }
