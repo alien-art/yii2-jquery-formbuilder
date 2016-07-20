@@ -15,7 +15,7 @@ JqueryformBuilderAsset::register($this);
 $js_form_builder = <<<JS
   jQuery(document).ready(function($) {
     'use strict';
-    $(document.getElementById('fb-main')).formBuilder();
+    $('#fb-main').formBuilder();
   });
 JS;
 

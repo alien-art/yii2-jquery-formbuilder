@@ -1,6 +1,6 @@
 <?php
 
-namespace alien\jquery_formbuilder\widgets;
+namespace alien\jquery_formbuilder\widget;
 
 use Yii;
 use yii\base\Widget;

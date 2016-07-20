@@ -20,5 +20,9 @@
         "psr-4": {
             "alien\\jquery_formbuilder\\": ""
         }
+    },
+	"extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
     }
 }

@@ -12,12 +12,12 @@ use yii\web\AssetBundle;
  */
 class JqueryformBuilderAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/formBuilder';
+    public $sourcePath = '@bower/formbuilder';
     public $path = '';
     public $css = [
-        'css/form-builder.min.css'];
+        'formbuilder-min.css'];
     public $js = [
-        'js/form-builder.min.js'
+        'formbuilder-min.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
