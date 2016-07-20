@@ -3,6 +3,12 @@
     "description": "Widget for jQuery fromBuilder",
     "type": "yii2-extension",
     "keywords": ["yii2","formBuilder"],
+	"repositories": [
+    {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }
+]
     "authors": [
         {
         "name": "Alien-art",
@@ -23,6 +29,7 @@
     },
 	"extra": {
     "asset-installer-paths": {
+	  "npm-asset-library": "vendor/npm",
       "bower-asset-library": "vendor/bower"
     }
 	}
