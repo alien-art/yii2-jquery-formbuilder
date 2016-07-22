@@ -26,5 +26,5 @@
         "psr-4": {
             "alien\\jquery_formbuilder\\": ""
         }
-    },
+    }
 }
