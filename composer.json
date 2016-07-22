@@ -5,8 +5,8 @@
     "keywords": ["yii2","formBuilder"],
 	"repositories": [
         {
-            "type": "vcs",
-            "url": "d:/work/YII2-EXT/formbuilder"
+            "type": "git",
+            "url": "https://github.com/alien-art/formBuilder"
         }
     ],
     "authors": [
