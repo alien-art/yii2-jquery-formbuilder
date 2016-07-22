@@ -15,7 +15,40 @@ JqueryformBuilderAsset::register($this);
 $js_form_builder = <<<JS
   jQuery(document).ready(function($) {
     'use strict';
-    $('#fb-main').formBuilder();
+    var options = {
+    disableFields: [
+      'autocomplete',
+      'button',
+      //'checkbox',
+      //'checkbox-group',
+      'date',
+      'file',
+      'header',
+      'hidden',
+      'paragraph',
+      //'number',
+      //'radio-group',
+      //'select',
+      //'text',
+      //'textarea'
+    ],
+    controlOrder: [
+        'text',
+        'textarea',
+        'number',
+        'select',
+        'checkbox',
+        'checkbox-group',
+        'radio-group'
+      ]
+    };  
+    var formBuilder = $('#fb-main').formBuilder(options);
+        
+    $(".form-builder-save").click(function(e) {
+    e.preventDefault();
+    var formData = formBuilder.data('formBuilder').formData;
+    alert(formData);
+  });
   });
 JS;
 
