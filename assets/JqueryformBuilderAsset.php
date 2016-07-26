@@ -17,7 +17,7 @@ class JqueryformBuilderAsset extends AssetBundle
     public $css = [
         'dist/form-builder.min.css'];
     public $js = [
-        'dist/form-builder.min.js'
+        'dist/form-builder.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
