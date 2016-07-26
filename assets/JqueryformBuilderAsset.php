@@ -21,5 +21,6 @@ class JqueryformBuilderAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
+		'yii\jui\JuiAsset'
     ];
 }
